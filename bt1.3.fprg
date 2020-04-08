@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-04 01:41:44 SA"/>
+        <attribute name="created" value="UFY7IERFU0tUT1AtOUFPUkhUQzsgMjAyMC0wNC0wNDsgMDE6MDc6MjggU0E7IDI2MTY="/>
+        <attribute name="edited" value="UFY7IERFU0tUT1AtOUFPUkhUQzsgMjAyMC0wNC0wNDsgMDE6NDE6NDQgU0E7IDI2MTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the circle&quot;"/>
+            <input variable="x"/>
+            <output expression="&quot;area is &quot; &amp; circle(x)"/>
+        </body>
+    </function>
+    <function name="circle" type="Real" variable="area">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="pi*radius^2"/>
+        </body>
+    </function>
+</flowgorithm>

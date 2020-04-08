@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-25 10:02:25 PM"/>
+        <attribute name="created" value="VXNlcjtQQzIwMTkxMTI0MTBIUFM7MjAyMC0wMy0yNTswOTo1NDozMCBQTTsyNTc3"/>
+        <attribute name="edited" value="VXNlcjtQQzIwMTkxMTI0MTBIUFM7MjAyMC0wMy0yNTsxMDowMjoyNSBQTTsxOzI2NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="a, h" type="Integer" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p v&#224;o &#273;&#7897; d&#224;i c&#7841;nh &#273;&#225;y tam gi&#225;c&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nh&#7853;p v&#224;o &#273;&#7897; d&#224;i chi&#7873;u cao tam gi&#225;c&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="1/2*a*h"/>
+            <output expression="&quot;di&#7879;n t&#237;ch tam gi&#225;c l&#224;&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
